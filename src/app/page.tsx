@@ -21,10 +21,6 @@ import education from "@/data/education";
  */
 export default function Home() {
 
-    const getTimeSafe = (dateStr: string | undefined) => {
-        const date = new Date(dateStr ?? '');
-        return isNaN(date.getTime()) ? 0 : date.getTime();
-    };
 
     return (
         <section className="px-4 max-w-4xl mx-auto">
