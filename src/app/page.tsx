@@ -1,11 +1,9 @@
 "use client";
 
-import blog from "@/data/blog";
 import projects from "@/data/projects";
 import work from "@/data/work";
 import WorkItem from "@/components/WorkItem";
 import ProjectTile from "@/components/ProjectTile";
-import BlogPost from "@/components/BlogPost";
 import ViewAllHeader from "@/components/ViewAllHeader";
 import {motion} from "framer-motion";
 import {
@@ -14,7 +12,6 @@ import {
     FaCode,
     FaCoins,
     FaRunning,
-    FaHiking
 } from "react-icons/fa";
 import education from "@/data/education";
 
