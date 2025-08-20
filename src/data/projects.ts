@@ -1,0 +1,58 @@
+const projects = [
+  {
+    slug: 'staylang',
+    title: 'Staylang',
+    image: '/projects/staylang.png',
+    description: 'A scripting language implemented in Rust with basic functionality.',
+    startDate: '2025-05',
+    endDate: '2025-05',
+    techStack: ['Rust', 'Clap'],
+  },
+  {
+    slug: 'upsite',
+    title: 'Upsite',
+    image: '/projects/upsite.png',
+    description: 'Checks if a website is up using a React frontend and Rust backend.',
+    startDate: '2024-06',
+    endDate: '2024-06',
+    techStack: ['React', 'Rust'],
+  },
+  {
+    slug: 'chip-8-interpreter',
+    title: 'CHIP-8 Interpreter',
+    image: '/projects/chip8.png',
+    description: 'A CHIP-8 interpreter implemented in Rust that emulates the workings of the chip.',
+    startDate: '2024-05-13',
+    endDate: '2024-05-13',
+    techStack: ['Rust'],
+  },
+  {
+    slug: 'messages-app',
+    title: 'Messages',
+    image: '/projects/messages.jpg',
+    description: 'A real-time messaging app built with Next.js, TypeScript, and MongoDB.',
+    startDate: '2023-08',
+    endDate: '2023-08',
+    techStack: ['Next.js', 'TypeScript', 'MongoDB'],
+  },
+  {
+    slug: 'aora',
+    title: 'Aora',
+    image: '/projects/aora.jpeg',
+    description: 'An AI-powered image sharing app built with React Native; Appwrite for backend.',
+    startDate: '2024-02',
+    endDate: '2024-02',
+    techStack: ['React Native', 'TypeScript', 'Appwrite'],
+  },
+  {
+    slug: 'png-me',
+    title: 'PNG-Me',
+    image: '/projects/pngme.png',
+    description: 'Encodes and decodes messages inside PNG files using Rust.',
+    startDate: '2024-04',
+    endDate: '2024-04',
+    techStack: ['Rust'],
+  },
+]
+
+export default projects
